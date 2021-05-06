@@ -1,0 +1,117 @@
+html {
+  height: 99%;
+}
+body {
+  height: 100%;
+  background-color: #fafafa;
+}
+.column-div {
+  height: 100%;
+  width: 800px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  max-width: 800px;
+}
+.main-box {
+  width: 800px;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  background-color: white;
+}
+form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 5px;
+}
+input {
+  width: 410px;
+  height: 38px;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  background-color: #fafafa;
+  margin-bottom: 20px;
+}
+.button {
+  width: 70px;
+  height: 42px;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  background-color: #0095f6;
+  color: white;
+  border-radius: 4px;
+  font-weight: bold;
+  margin-left: 8px;
+}
+.second-box {
+  width: 800px;
+  height: 100%;
+  display: flex;
+}
+.todo-list {
+  width: 440px;
+  height: 100%;
+  margin-left: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.to-do {
+  width: 100%;
+  height: 40px;
+  line-height: 30px;
+  margin-bottom: 10px;
+  display: flex;
+  border-bottom: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+}
+.num {
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);
+  float: left;
+  text-align: center;
+  line-height: 30px;
+  color: #696969;
+  font-size: 15px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.content {
+  width: 330px;
+}
+
+.to-do > button {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  /*border: 1px solid rgba(var(--b6a, 219, 219, 219), 1);*/
+  border: None;
+  text-align: center;
+  line-height: 30px;
+  color: #696969;
+  font-size: 17px;
+  margin-right: 5px;
+  font-weight: bold;
+  margin-top: 2.5px;
+}
+
+.time-table {
+  margin-left: 55px;
+  width: 230px;
+  height: 390px;
+  border-collapse: collapse;
+  font-size: 3px;
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 0.6);
+  color: rgba(var(--b6a, 120, 120, 120), 1);
+}
+th,
+td {
+  border: 1px solid rgba(var(--b6a, 219, 219, 219), 0.6);
+  width: 32.8px;
+  text-align: center;
+}
