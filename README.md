@@ -15,6 +15,4 @@
 
 #### 시간 계획 삭제하는 법
 해당 시간 칸에서 마우스 우클릭 하면 됨
-
-<img width="80%" src="
-https://user-images.githubusercontent.com/59195798/157999742-107bbe38-4ca0-4dd9-9fbb-6d6ede1017aa.png"/>
+<img width="80%" src="https://user-images.githubusercontent.com/59195798/157999742-107bbe38-4ca0-4dd9-9fbb-6d6ede1017aa.png"/>
